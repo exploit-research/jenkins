@@ -1,2 +1,0 @@
-# ubuntujoke
-Nothing, Just casual !
