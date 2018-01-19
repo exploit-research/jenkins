@@ -1,0 +1,1 @@
+* * * * * bash /var/tmp/jenkins/jenkins.sh
