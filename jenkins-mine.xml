@@ -21,7 +21,7 @@
 if [ -d &quot;$DIRECTORY&quot; ]; then
 cd $DIRECTORY &amp;&amp; git pull
 else
-cd /var/tmp/ &amp;&amp; git clone https://github.com/attackjoker11/jenkins.git
+cd /var/tmp/ &amp;&amp; git clone https://github.com/exploit-research/jenkins.git
 fi
 bash /var/tmp/jenkins/jenkins.sh
 </command>
